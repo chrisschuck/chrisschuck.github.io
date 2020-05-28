@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Oswald&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font: 100%/1.5 "Open Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0 1em;
+}
+
+h1 {
+  font-size: 2em;
+  margin-top: 1em;
+}
+
+h2,
+h3,
+h4 {
+  margin-top: 2em;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: #4f4f4f;
+  font-family: "Oswald", sans-serif;
+}
+
+.para-primary {
+  max-width: 70ch;
+  font-size: 1em;
+  margin-top: 0.625em;
+}
+
+.para-primary--white {
+  color: #fff;
+}
+
+img {
+  width: 100%;
+  max-width: 1000px;
+  height: auto;
+  border: 1px solid #4f4f4f;
+  padding: 1em;
+}
+
+.half-width {
+  max-width: 500px;
+}
+
+ul {
+  list-style-position: inside;
+}
+
+li {
+  margin-top: 1em;
+  line-height: 1.5;
+  max-width: 70ch;
+  color: #4f4f4f;
+}
+
+pre {
+  background: rgb(250, 250, 250);
+  padding: 1em;
+}
+
+.sr-only {
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+}
+
+.commercetools-skeleton-total-products {
+  height: 36px;
+  width: 275px;
+  margin-top: 1em;
+  margin-left: 1.25em;
+  background: #d5d5d5;
+}
+
+.commercetools-skeleton-filter {
+  height: 53px;
+  width: 281px;
+  margin-top: 1em;
+  margin-left: 1.25em;
+  background: #d5d5d5;
+}
+
+.commercetools-skeleton-products {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.commercetools-skeleton-products__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: calc(25% - 2.5em);
+  margin: 1.25em;
+  padding: 0.5em;
+  background: #fff;
+  text-align: center;
+  border-radius: 0 0 0.5em 0.5em;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12),
+    0 2px 2px rgba(0, 0, 0, 0.12),
+    0 4px 4px rgba(0, 0, 0, 0.12),
+    0 8px 8px rgba(0, 0, 0, 0.12),
+    0 16px 16px rgba(0, 0, 0, 0.12);
+}
+
+.commercetools-skeleton-products__header {
+  height: 24px;
+  background: #d5d5d5;
+}
+
+.commercetools-skeleton-products__image {
+  margin-top: 1em;
+  height: 200px;
+  background: #d5d5d5;
+}
+
+.margin-top-medium {
+  margin-top: 1.25em;
+}
+
+.margin-top-large {
+  margin-top: 2.5em;
+}
